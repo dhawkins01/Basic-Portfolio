@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body styles for all pages */
+
+body {
+    background-image: url(../images/bg.jpeg)
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header h1 {
+    padding: 20px;
+    background-color: #4aaaa5;
+    width: 300px;
+    color: #ffffff;
+    margin: auto;
+
+}
+
+nav {
+    float: right;
+}
