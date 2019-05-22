@@ -9,20 +9,27 @@ body {
 }
 
 header {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #ffffff;
-    padding: 20px;
+	background-color: #fff;
+	margin-bottom: 40px;
+	border-bottom: 2px solid #ccc;
 }
 
 header h1 {
     padding: 20px;
     background-color: #4aaaa5;
-    width: 300px;
+    margin: auto 0;
     color: #ffffff;
-    margin: auto;
-
+    float: left;
 }
 
 nav {
     float: right;
+    
+}
+
+.wrapper {
+    width: 960px;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
 }
