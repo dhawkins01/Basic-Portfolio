@@ -5,13 +5,15 @@
 /* body styles for all pages */
 
 body {
-    background-image: url(../images/bg.jpeg)
+    background-image: url(../images/bg.jpeg);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 header {
 	background-color: #fff;
 	margin-bottom: 40px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #cccccc;
 }
 
 header h1 {
@@ -24,6 +26,7 @@ header h1 {
 
 nav {
     float: right;
+    padding: 30px;
     
 }
 
@@ -32,4 +35,41 @@ nav {
 	margin: 0 auto;
 	clear: both;
 	overflow: hidden;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+footer {
+	text-align: center;
+	background-color: #777;
+	color: #ccc;
+	line-height: 20px;
+	margin-top: 40px;
+	border-top: 8px solid #4aaaa5;
+    font-size: 12px;
+    
+}
+
+content {
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+#aboutMe h1 {
+    padding: 10px;
+}
+
+#aboutMe {
+    background-color: #ffffff;
+    padding: 20px;
+
+
+}
+
+#aboutMe img {
+    float: left;
+    margin-right: 10px;
 }
