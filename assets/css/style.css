@@ -53,7 +53,7 @@ footer {
 	margin-top: 40px;
 	border-top: 8px solid #4aaaa5;
     font-size: 12px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     
@@ -89,7 +89,20 @@ input[type=submit] {
     padding: 10px 30px;
     font-size: 18px;
     color: #fff;
-    cursor: pointer;
+    
     background: #4aaaa5;
     border: 0 none;
+}
+
+.gallery {
+   float: left;
+   margin: 20px;
+
+}
+
+.gallery h2 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    
+    position: absolute;
 }
