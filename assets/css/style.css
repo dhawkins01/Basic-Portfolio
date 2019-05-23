@@ -98,11 +98,23 @@ input[type=submit] {
    float: left;
    margin: 20px;
 
+
 }
 
 .gallery h2 {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    
-    position: absolute;
+  position: relative;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-family: "Georgia";
+  font-size: 22px;
+  bottom: 100px;
 }
+
